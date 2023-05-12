@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaram Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Normalize CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<!-- Orbitron Fonts CSS -->
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+<body>
+    <div class="table">
+        <div class="cell">
+            
+            <h1 class="clock" id="clock"></h1>
+
+            <select name="" id="hours"></select>
+            <select name="" id="minutes"></select>
+            <select name="" id="seconds"></select>
+            <select name="" id="ampm">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+            <P>
+                <button id="snooze" class="hide" >Snooze</button>
+                <button id="startstop">Set Alarm</button>
+            </P>
+            <span id="set" class="hide">Your alarm is set on :</span>
+            <span id="setAlarm"></span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

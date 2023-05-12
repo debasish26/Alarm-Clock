@@ -1,0 +1,58 @@
+html,
+body{
+    height: 100%;
+}
+body{
+    cursor: pointer;
+    background: #e595c4;
+    text-align: center;
+}
+h1{
+    
+    font-family: "Orbitron" , sans-serif;
+    font-size: 4em;
+    color: rgb(3, 3, 3);
+
+}
+
+button{
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: 0;
+    color: #333;
+    transition: all ease 300ms;
+
+}
+button:hover {
+    color: #fff;
+    background: #d4209e;
+}
+
+
+/* center content vertically and horizontally */
+
+.table {
+    
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.cell {
+    
+
+    display: table-cell;
+    vertical-align: middle;
+    
+    
+}
+
+
+
+.hide{
+    display : none;
+}
